@@ -1,0 +1,22 @@
+{
+  "name": "cosmjs_deployement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node deploy_script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cosmjs/amino": "^0.32.3",
+    "@cosmjs/cosmwasm-stargate": "^0.32.3",
+    "@cosmjs/proto-signing": "^0.32.3",
+    "@cosmjs/stargate": "^0.32.3",
+    "dotenv": "^16.4.5",
+    "i": "^0.3.7",
+    "npm": "^10.8.1"
+  }
+}
